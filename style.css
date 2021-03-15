@@ -1,0 +1,31 @@
+.Btns {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 4;
+    margin: 10px;
+}
+
+.numbers, .operators, .equal {
+    margin: 10px;
+    padding: 5px;
+}
+
+.calculator {
+    width: 250px;
+    height: 500px;
+}
+
+.clear {
+    grid-area: 1/2/1/4;
+    margin: 10px;
+    padding: 5px;
+}
+
+.display {
+    font-size: 2rem;
+    text-align: end;
+    height: 2rem;
+    margin-top: 10px;
+    padding: 5px;
+    border: black 2px solid;
+}
